@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body {
+  background-color: black;
+  font-family: 'Verdana', sans-serif;
+}
+a { color: dodgerblue;}
+a:hover {
+  color: crimson;
+}
+img {
+  width: 100%;
+}
+.parent-flex {
+  display: flex;
+  border: 8px solid dodgerblue;
+  margin: 60px;
+  background: white;
+}
+.parent-flex div {
+  margin: 10px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+h1 {
+  color:white;
+  font-family: 'Special Elite', serif;
+  font-size:120px;
+  }
+h2 {color:black;}
+.midwest {color:white}
+.flex-left {
+  flex: 20%;
+}
+.flex-center {
+  flex: 40%;
+  padding: 0 40px;
+}
+.flex-right {
+  flex: 40%;
+}
